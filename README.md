@@ -25,13 +25,13 @@ The model code is distributed under the [GPLv2 License](https://github.com/Open-
 
 ## Reference
 
-[1] [https://www.ncbi.nlm.nih.gov/pubmed/19143531]()
+[1] [Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.](https://academic.oup.com/cid/article/48/4/489/284558)
 
-[2] [https://www.ncbi.nlm.nih.gov/pubmed/17133211]()
+[2] [Markowitz M, Morales-Ramirez JO, Nguyen BY, Kovacs CM, Steigbigel RT, Cooper DA, Liporace R, Schwartz R, Isaacs R, Gilde LR, Wenning L, Zhao J, Teppler H. Antiretroviral activity, pharmacokinetics, and tolerability of MK-0518, a novel inhibitor of HIV-1 integrase, dosed as monotherapy for 10 days in treatment-naive HIV-1-infected individuals. J Acquir Immune Defic Syndr. 2006 Dec 15;43(5):509-15.](http://insights.ovid.com/pubmed?pmid=17133211)
 
-[3] [https://www.ncbi.nlm.nih.gov/pubmed/17591678]()
+[3] [Kassahun K1, McIntosh I, Cui D, Hreniuk D, Merschman S, Lasseter K, Azrolan N, Iwamoto M, Wagner JA, Wenning LA. Metabolism and disposition in humans of raltegravir (MK-0518), an anti-AIDS drug targeting the human immunodeficiency virus 1 integrase enzyme. Drug Metab Dispos. 2007 Sep;35(9):1657-63. Epub 2007 Jun 25.](http://dmd.aspetjournals.org/content/35/9/1657.long)
 
-[4] [https://www.ncbi.nlm.nih.gov/pubmed/25753401]()
+[4] [Rizk ML, Du L, Bennetto-Hood C, Wenning L, Teppler H, Homony B, Graham B, Fry C, Nachman S, Wiznia A, Worrell C, Smith B, Acosta EP. Population pharmacokinetic analysis of raltegravir pediatric formulations in HIV-infected children 4 weeks to 18 years of age. J Clin Pharmacol. 2015 Jul;55(7):748-56. doi: 10.1002/jcph.493. Epub 2015 Apr 13.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4572519/)
 
 [5] [https://www.ncbi.nlm.nih.gov/pubmed/24145879]()
 
