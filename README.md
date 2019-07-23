@@ -9,7 +9,7 @@ Whole-body PBPK model of Raltegravir
 
 Within this repository, we distribute a whole-body PBPK model of Raltegravir, that has been developed using clinical studies in adults and evaluated for its predictive performance of UGT1A1 mediated clearance after oral administration in children. 
 
-The PK-Sim project file contains simulations of all published clinical studies employed during model establishment [[1-4](#reference)] and for model predictions in pediatrics [5-7](#reference)], including the respective observed data digitized.
+The PK-Sim project file contains simulations of all published clinical studies employed during model establishment [[1-4](#reference)] and for model predictions in pediatrics [[5-7](#reference)], including the respective observed data digitized.
 
 ## Code of conduct
 
