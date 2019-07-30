@@ -1,26 +1,26 @@
-## 1.1.2	Data used
-
-### 1.1.2.1	In vitro / physchem data
+### 2.2.1	In vitro / physico-chemical data
 
 A literature search was performed to collect available information on physical chemical properties of raltegravir. The obtained information from literature is summarized in the table below, and is used for model building.
 
 | **Parameter**   | **Unit**    | **Raltegravir literature**                     | **Description**                |
 | :-------------- | ----------- | ---------------------------------------------- | ------------------------------ |
-| MW              | g/mol       | 586.2 ([drugbank.ca](../input/references.md))  | Molecular weight               |
-| pKa             |             | 7.67 ([Moss 2012](../input/references.md))     | Acid dissociation constant     |
+| MW              | g/mol       | 586.2 ([drugbank.ca](./References.md))         | Molecular weight               |
+| pKa             |             | 7.67 ([Moss 2012](./References.md)))           | Acid dissociation constant     |
 | Solubility (pH) | mg/L        | Reference pH-dependent table (Moss 2013)       | Solubility                     |
-| logP            |             | 0.58 ([Moss 2012](../input/references.md))     | Lipophilicity                  |
-| fu              |             | 0.17 ([Laufer 2009](../input/references.md))   | Fraction unbound               |
-| UGT1A1          | µM          | 99 ([Kassahun 2007](../input/references.md))   | Michaelis-Menten constant (Km) |
-| UGT1A1          | nmol/min/mg | 0.89 ([Kassahun 2007](../input/references.md)) | Vmax                           |
-| UGT1A9          | µM          | 296 ([Kassahun 2007](../input/references.md))  | Michaelis-Menten constant (Km) |
-| UGT1A9          | nmol/min/mg | 0.53 ([Kassahun 2007](../input/references.md)) | Vmax                           |
+| logP            |             | 0.58 ([Moss 2012](./References.md)))           | Lipophilicity                  |
+| fu              |             | 0.17 ([Laufer 2009](./References.md)))         | Fraction unbound               |
+| UGT1A1          | µM          | 99 ([Kassahun 2007](./References.md)))         | Michaelis-Menten constant (Km) |
+| UGT1A1          | nmol/min/mg | 0.89 ([Kassahun 2007](./References.md)))       | Vmax                           |
+| UGT1A9          | µM          | 296 ([Kassahun 2007](./References.md)))        | Michaelis-Menten constant (Km) |
+| UGT1A9          | nmol/min/mg | 0.53 ([Kassahun 2007](./References.md)))       | Vmax                           |
 
-### 1.1.2.2	Clinical data
+### 2.2.2	Clinical data
 
 A literature search was performed to collect available clinical data on Raltegravir in adults. 
 
 The following publications were found in adults for model building and evaluation:
+
+* [Iwamoto 2008](./References.md)
 
 Iwamoto M, Wenning LA, Petry AS, Laethem M, De Smet M, Kost JT, Merschman SA, Strohmaier KM, Ramael S, Lasseter KC, Stone JA, Gottesdiener KM, Wagner JA. Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects. Clin Pharmacol Ther. 2008 Feb;83(2):293-9. Epub 2007 Aug 22.
 
