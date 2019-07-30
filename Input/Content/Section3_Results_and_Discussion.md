@@ -2,9 +2,9 @@ The PBPK model **raltegravir** was developed with clinical pharmacokinetic data 
 
 As there were 4 different oral formulations available for model evaluation, all formulations require an estimation of the dissolution kinetics via a Weibull function. This function requires the estimation of 2 parameters, the dissolution time (time where 50% of the drug is dissolved), and dissolution shape (shape parameter of the Weibull function). Therefore, to minimize the amount of parameters for fitting, as a first step, the PK study data (lactose formulation) by Iwamoto et al. ([Iwamoto 2007](./References.md)) was fitted which includes SD escalation and hast a broad dose-range (10mg-1600mg) to capture (non-) linearity. During the model-fitting, the following parameters were estimated (all other parameters were fixed to reported values):
 
-·	Vmax (as unique scaling factor fUGT, as described in section [2.3.3](./Section2.3_Model_Parameters_and_Assumptions.md#133metabolism-and-elimination)) 
-·	Weibul function paramters: Dissolution time and dissolution shape
-·	Specific intestinal permeability (transcellular)
+*	Vmax (as unique scaling factor fUGT, as described in section [2.3.3](./Section2.3_Model_Parameters_and_Assumptions.md#133metabolism-and-elimination)) 
+*	Weibul function paramters: Dissolution time and dissolution shape
+*	Specific intestinal permeability (transcellular)
 
 The fit resulted in an adequate description of all data. As there is no iv data available, it was not possible to clearly distinguish between clearance and absorption, resulting in a considerable correlation between Vmax and dissolution shape (Weibull). An attempt to fix Vmax to reported in vitro values, and only estimating absorption (lipophilicity and intestinal transcellular permeability) resulted in an underprediction of the clearance, and clearly indicated a need for increase in clearance. As described above, no reported intestinal permeability was found other than caco-permeability. Caco-permeability could not be translated to effective intestinal permeability without a reference compound. Therefore it was decided to continue with the model where both Pint and Vmax were estimated.
 
