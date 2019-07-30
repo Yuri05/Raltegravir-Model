@@ -7,12 +7,12 @@ A literature search was performed to collect available information on physical c
 | MW              | g/mol       | 586.2 ([drugbank.ca](./References.md))         | Molecular weight               |
 | pKa             |             | 7.67 ([Moss 2012](./References.md)))           | Acid dissociation constant     |
 | Solubility (pH) | mg/L        | Reference pH-dependent table (Moss 2013)       | Solubility                     |
-| logP            |             | 0.58 ([Moss 2012](./References.md)))           | Lipophilicity                  |
-| fu              |             | 0.17 ([Laufer 2009](./References.md)))         | Fraction unbound               |
-| UGT1A1          | µM          | 99 ([Kassahun 2007](./References.md)))         | Michaelis-Menten constant (Km) |
-| UGT1A1          | nmol/min/mg | 0.89 ([Kassahun 2007](./References.md)))       | Vmax                           |
-| UGT1A9          | µM          | 296 ([Kassahun 2007](./References.md)))        | Michaelis-Menten constant (Km) |
-| UGT1A9          | nmol/min/mg | 0.53 ([Kassahun 2007](./References.md)))       | Vmax                           |
+| logP            |             | 0.58 ([Moss 2012](./References.md))            | Lipophilicity                  |
+| fu              |             | 0.17 ([Laufer 2009](./References.md))          | Fraction unbound               |
+| UGT1A1          | µM          | 99 ([Kassahun 2007](./References.md))          | Michaelis-Menten constant (Km) |
+| UGT1A1          | nmol/min/mg | 0.89 ([Kassahun 2007](./References.md))        | Vmax                           |
+| UGT1A9          | µM          | 296 ([Kassahun 2007](./References.md))         | Michaelis-Menten constant (Km) |
+| UGT1A9          | nmol/min/mg | 0.53 ([Kassahun 2007](./References.md))        | Vmax                           |
 
 ### 2.2.2	Clinical data
 
