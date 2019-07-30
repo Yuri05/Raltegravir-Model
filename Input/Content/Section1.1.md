@@ -1,7 +1,12 @@
-## 1.1   Materials and Methods
+## Modelling strategy
 
-The presented model building and evaluation report evaluates the performance of PBPK model for raltegravir in adults.
+The building of a PBPK model is well-described by Kuepfer et al. ([Kuepfer 2016](../input/references.md)) The PBPK models are developed with clinical data of healthy adult subjects obtained from the literature, covering available dosing ranges for e.g. intravenous as well as oral administration, to capture both systemic clearance as well gut-wall metabolic clearance processes. Plasma concentrations following multiple-dose application, mass balance information and other clinical measurements need to be included for model development, if available. During model building, uncertainties in data-quality caused inaccurate in vitro assay-techniques regarding mass balance, as well as study differences may cause not being able to adequately describe the PK in adults for all reported studies. 
 
-Raltegravir (RAL), sold under the brand name Isentress, is an antiretroviral medication used to treat HIV/AIDS by blocking the establishment of post-integration HIV latency . It is also used as part of post exposure prophylaxis, to prevent HIV infection following potential exposure. Raltegravir is only taken orally and is mainly metabolized by UGT1A1 (~70%) [(Kassahun 2007](../input/references.md)).  The final raltegravir model applies metabolism by UGT1A1, and minor involved enzyme UGT1A9 and glomerular filtration and adequately described the pharmacokinetics of raltegravir in adults.
+Model performance of the PBPK model for raltegravir are then shown by means of diagnostics plots and predicted versus observed concentration-time profiles, of which the results support an adequate prediction of the PK in adults.
 
-The raltegravir model is a whole-body PBPK model, allowing for dynamic translation between individuals with organs expressing UGT1A1. The raltegravir report demonstrates the level of confidence of the raltegravir PBPK model build with the OSP suite with regard to reliable predictions of Raltegravir PBPK adults during model-informed drug development. The presented raltegravir PBPK model as well as the respective evaluation plan and PBPK report are provided open-source and transparently documented (https://github.com/Incei/Raltegravir-Model).
+## Anthropometric and Physiological Information 
+
+Regarding the relevant anthropometric (height, weight) and physiological parameters (e.g. blood flows, organ volumes, binding protein concentrations, hematocrit, cardiac output) in adults was gathered from the literature and has been previously published ([PK-Sim Ontogeny Database Version 7.3](../input/references.md)). The information was incorporated into PK-Sim® and was used as default values for the simulations in adults.
+
+The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available ‘PK-Sim® Ontogeny Database Version 7.3' ([Schlender 2016](../input/references.md)) or otherwise referenced for the specific process.
+
