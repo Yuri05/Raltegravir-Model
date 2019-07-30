@@ -1,6 +1,6 @@
-**Iwamoto 2009** Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.
-
 **Iwamoto 2008** Iwamoto M, Wenning LA, Petry AS, Laethem M, De Smet M, Kost JT, Merschman SA, Strohmaier KM, Ramael S, Lasseter KC, Stone JA, Gottesdiener KM, Wagner JA. Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects. Clin Pharmacol Ther. 2008 Feb;83(2):293-9. Epub 2007 Aug 22.
+
+**Iwamoto 2009** Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.
 
 **Kassahun 2007** Kassahun K, McIntosh I, Cui D, Hreniuk D, Merschman S, Lasseter K, Azrolan N, Iwamoto M, Wagner JA, Wenning LA. Metabolism and disposition in humans of raltegravir (MK-0518), an anti-AIDS drug targeting the human immunodeficiency virus 1 integrase enzyme. Drug Metab Dispos. 2007 Sep;35(9):1657-63. Epub 2007 Jun 25.
 
@@ -26,8 +26,6 @@
 
 **Sjögren 2013** Sjögren E, Westergren J, Grant I, Hanisch G, Lindfors L, Lennernäs H, Abrahamsson B, Tannergren C. In silico predictions of gastrointestinal drug absorption in pharmaceutical product development: application of the mechanistic absorption model GI-Sim. Eur J Pharm Sci. 2013 Jul 16;49(4):679-98. doi: 10.1016/j.ejps.2013.05.019. Epub 2013 May 29.
 
-**Sun 2002** Sun D, Lennernas H, Welage LS, Barnett JL, Landowski CP, Foster D, Fleisher D, Lee KD, Amidon GL. , Comparison of human duodenum and Caco-2 gene expression profiles for 12,000 gene sequences tags and correlation with permeability of 26 drugs. Pharm Res. 2002 Oct;19(10):1400-16. 
+**Sun 2002** Sun D, Lennernas H, Welage LS, Barnett JL, Landowski CP, Foster D, Fleisher D, Lee KD, Amidon GL. Comparison of human duodenum and Caco-2 gene expression profiles for 12,000 gene sequences tags and correlation with permeability of 26 drugs. Pharm Res. 2002 Oct;19(10):1400-16. 
 
 **Thelen 2011** Thelen K, Coboeken K, Willmann S, Burghaus R, Dressman JB, Lippert J. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, part 1: oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45. doi: 10.1002/jps.22726. Epub 2011 Oct 12
-
-

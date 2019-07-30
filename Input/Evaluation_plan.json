@@ -532,51 +532,56 @@
     "Sections": [
         {
             "Id": 1,
-            "Title": "1.1   Materials and Methods",
-            "Content": "Content/Section1.1.md",
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 11,
-                    "Content": "Content/Section1.1.1.md",
-                    "Title": "1.1.1 Modelling strategy"
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
                 },
                 {
-                    "Id": 12,
-                    "Content": "Content/Section1.1.2.md",
-                    "Title": "1.1.2 Data used"
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
                 },
                 {
-                    "Id": 13,
-                    "Content": "Content/Section1.1.3.md",
-                    "Title": "1.1.3 Model parameters and assumptions"
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
                 }
             ]
         },
         {
             "Id": 2,
-            "Content": "Content/Section1.2.md",
-            "Title": "1.2   Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
             "Sections": [
                 {
                     "Id": 40,
-                    "Content": "Content/Raltegravir_table.md",
-                    "Title": "1.2.1 Raltegravir final PK parameter tables"
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1   Raltegravir final PK parameter tables"
                 },
                 {
                     "Id": 41,
-                    "Content": "Content/Raltegravir_diagnostics.md",
-                    "Title": "1.2.2: Raltegravir Diagnostics Plots"
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Raltegravir Diagnostics Plots"
                 },
                 {
                     "Id": 42,
-                    "Content": "Content/Concentration_time_profiles_adults.md",
-                    "Title": "1.2.3: Raltegravir Concentration-Time profiles"
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3: Raltegravir Concentration-Time profiles"
                 }
             ]
         },
         {
             "Id": 3,
-            "Content": "Content/Section1.3.md",
+            "Content": "Content/Section4_Conclusion.md",
             "Title": "1.3   Conclusion"
         },
         {
