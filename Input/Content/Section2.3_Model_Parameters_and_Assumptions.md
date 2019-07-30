@@ -34,5 +34,6 @@ Vmax,UGT1A1 = fUGT * Vmax,in-vitro,UGT1A1
 Vmax,UGT1A9 = fUGT * Vmax,in-vitro,UGT1A9
 
 It is especially important to fix the relative contribution of both enzymes as a ratio to ensure that, when scaling to other populations (e.g. children where both UGT’s undergo a different ontogeny pattern, or patients who have differently reduced amounts of UGT1A1 vs 1A9) the relative contributions can be adequately scaled. 
+Note that the estimated scaling factor fUGT will be directly implemented into the final in vivo Vmax values. 
 
 Finally, as ~9% of the dose is excreted in human urine as unchanged parent compound, GFR is introduced in the raltegravir PBPK model.
