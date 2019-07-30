@@ -5,8 +5,8 @@ A literature search was performed to collect available information on physical c
 | **Parameter**   | **Unit**    | **Raltegravir literature**                     | **Description**                |
 | :-------------- | ----------- | ---------------------------------------------- | ------------------------------ |
 | MW              | g/mol       | 586.2 ([drugbank.ca](./References.md))         | Molecular weight               |
-| pKa             |             | 7.67 ([Moss 2012](./References.md)))           | Acid dissociation constant     |
-| Solubility (pH) | mg/L        | Reference pH-dependent table (Moss 2013)       | Solubility                     |
+| pKa             |             | 7.67 ([Moss 2012](./References.md))            | Acid dissociation constant     |
+| Solubility (pH) | mg/L        | Reference pH-dependent table ([Moss 2013](./References.md))       | Solubility                     |
 | logP            |             | 0.58 ([Moss 2012](./References.md))            | Lipophilicity                  |
 | fu              |             | 0.17 ([Laufer 2009](./References.md))          | Fraction unbound               |
 | UGT1A1          | µM          | 99 ([Kassahun 2007](./References.md))          | Michaelis-Menten constant (Km) |
