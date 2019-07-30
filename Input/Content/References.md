@@ -1,6 +1,6 @@
 ## References
 
-**Iwamoto 2009**   Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.
+**Iwamoto 2009**  Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.
 
 **Iwamoto** M, Wenning LA, Petry AS, Laethem M, De Smet M, Kost JT, Merschman SA, Strohmaier KM, Ramael S, Lasseter KC, Stone JA, Gottesdiener KM, Wagner JA. Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects. Clin Pharmacol Ther. 2008 Feb;83(2):293-9. Epub 2007 Aug 22.
 
