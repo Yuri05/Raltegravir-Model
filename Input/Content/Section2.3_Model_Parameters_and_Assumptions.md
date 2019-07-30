@@ -19,7 +19,7 @@ As no intravenous data is currently available to study systemic clearance of ral
 
 ### 2.3.2	Distribution
 
-Laufer et al. ([Laufer 2009](../input/references.md)) published a fu in humans to be 0.17. Barau et al 2013 reported that raltegravir binds to serum albumin, and not alpha glycoprotein, and are built-in as such into the PBPK model.
+Laufer et al. ([Laufer 2009](./References.md)) published a fu in humans to be 0.17. Barau et al 2013 reported that raltegravir binds to serum albumin, and not alpha glycoprotein, and are built-in as such into the PBPK model.
 
 After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by Rodgers and Rowland, and cell permeability calculation by PK-Sim standard. Specific organ permeability normalized to surface area was automatically calculated by PK-Sim.
 
@@ -34,6 +34,6 @@ Vmax,UGT1A1 = fUGT * Vmax,in-vitro,UGT1A1
 Vmax,UGT1A9 = fUGT * Vmax,in-vitro,UGT1A9
 
 It is especially important to fix the relative contribution of both enzymes as a ratio to ensure that, when scaling to other populations (e.g. children where both UGT’s undergo a different ontogeny pattern, or patients who have differently reduced amounts of UGT1A1 vs 1A9) the relative contributions can be adequately scaled. 
-Note that the estimated scaling factor fUGT will be directly implemented into the final in vivo Vmax values. 
+Note that the estimated scaling factor fUGT will be directly implemented into the final in vivo Vmax values (only Vmax,UGT1A1 and Vmax,UGT1A9 will be reported in section [3](./Section3_Results_and_Discussion.md))
 
 Finally, as ~9% of the dose is excreted in human urine as unchanged parent compound, GFR is introduced in the raltegravir PBPK model.
