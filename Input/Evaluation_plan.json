@@ -136,70 +136,63 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 10 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 9",
+                                "ObservedData": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 25 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 10",
+                                "ObservedData": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 50 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 11",
+                                "ObservedData": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 100 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 12",
+                                "ObservedData": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 13",
+                                "ObservedData": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 14",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Wenning_2009_Effect of Rifampin, a Potent Inducer of Drug-Metabolizing Enzymes_figure 1a.Figure 1",
+                                "ObservedData": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 800 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 15",
+                                "ObservedData": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 16",
+                                "ObservedData": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 17",
+                                "ObservedData": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             }
                         ]
@@ -212,35 +205,49 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 100 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_100 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_200 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kassahun_2007_Metabolism and disposition in humans of Raltegravir _fig2.Figure 2",
+                                "ObservedData": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_400 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg filmcoated tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 400mg film-coated tablet (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Raltegravir",
+                                "Simulation": "Raltegravir 400mg filmcoated tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Raltegravir",
+                                "Simulation": "Raltegravir 400mg filmcoated tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)",
                                 "Color": "#000000"
                             }
                         ]
@@ -253,14 +260,14 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg chewable fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 4x100mg chewable tablet (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg chewable fed",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 4x100mg chewable tablet (fed) logscale",
+                                "ObservedData": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             }
                         ]
@@ -271,9 +278,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (granules in suspension) lsf",
+                                "Simulation": "Raltegravir 400mg (granules in suspension)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 400mg granules in suspension (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             }
                         ]
@@ -293,70 +300,63 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 10 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 9",
+                                "ObservedData": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 25 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 10",
+                                "ObservedData": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 50 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 11",
+                                "ObservedData": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 100 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 12",
+                                "ObservedData": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 13",
+                                "ObservedData": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 14",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Wenning_2009_Effect of Rifampin, a Potent Inducer of Drug-Metabolizing Enzymes_figure 1a.Figure 1",
+                                "ObservedData": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 800 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 15",
+                                "ObservedData": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 16",
+                                "ObservedData": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto_2008_Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects.Iwamoto 2008 Fig 2 final table 17",
+                                "ObservedData": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)",
                                 "Color": "#000000"
                             }
                         ]
@@ -369,35 +369,49 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 100 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_100 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_200 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kassahun_2007_Metabolism and disposition in humans of Raltegravir _fig2.Figure 2",
+                                "ObservedData": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz_2006_400 mg bid 10 days",
+                                "ObservedData": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg filmcoated tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 400mg film-coated tablet (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Raltegravir",
+                                "Simulation": "Raltegravir 400mg filmcoated tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Raltegravir",
+                                "Simulation": "Raltegravir 400mg filmcoated tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)",
                                 "Color": "#000000"
                             }
                         ]
@@ -410,14 +424,14 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg chewable fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 4x100mg chewable tablet (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             },
                             {
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg chewable fed",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 4x100mg chewable tablet (fed) logscale",
+                                "ObservedData": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             }
                         ]
@@ -428,9 +442,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (granules in suspension) lsf",
+                                "Simulation": "Raltegravir 400mg (granules in suspension)",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 400mg granules in suspension (fasted) logscale",
+                                "ObservedData": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
                                 "Color": "#000000"
                             }
                         ]
@@ -471,7 +485,7 @@
             },
             {
                 "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg (granules in suspension) lsf",
+                "Simulation": "Raltegravir 400mg (granules in suspension)",
                 "SectionId": 42
             },
             {
@@ -526,6 +540,12 @@
             "Project": "Raltegravir",
             "Name": "Raltegravir",
             "Type": "Compound",
+            "SectionId": 40
+        },
+        {
+            "Name": "Formulations",
+            "Project": "Raltegravir",
+            "Type": "Formulation",
             "SectionId": 40
         }
     ],
