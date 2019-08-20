@@ -1,9 +1,9 @@
-{
+﻿{
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Raltegravir",
-            "Path": "https://raw.githubusercontent.com/Incei/Raltegravir-Model/master/Raltegravir.json",
+            "Path": "C:/Users/gemuh.AD-BAYER-CNB/Desktop/Markdown/Raltegravir/Input/Raltegravir.json",
             "BuildingBlocks": []
         }
     ],
@@ -543,7 +543,25 @@
             "SectionId": 40
         },
         {
-            "Name": "Formulations",
+            "Name": "filmcoated tablet (original Merck formulation)",
+            "Project": "Raltegravir",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "chewable tablet",
+            "Project": "Raltegravir",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "Weibull (lactose formulation)",
+            "Project": "Raltegravir",
+            "Type": "Formulation",
+            "SectionId": 40
+        },
+        {
+            "Name": "Weibull (granules)",
             "Project": "Raltegravir",
             "Type": "Formulation",
             "SectionId": 40
@@ -585,7 +603,7 @@
                 {
                     "Id": 40,
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1   Raltegravir final PK parameter tables"
+                    "Title": "3.1 Raltegravir final input parameters"
                 },
                 {
                     "Id": 41,
@@ -607,7 +625,7 @@
         {
             "Id": 4,
             "Content": "Content/References.md",
-            "Title": "References"
+            "Title": "5 References"
         }
     ]
 }
