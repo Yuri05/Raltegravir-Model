@@ -1,9 +1,9 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v1.0/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Raltegravir",
-            "Path": "https://raw.githubusercontent.com/Incei/Raltegravir-Model/master/Raltegravir.json",
+            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Model/master/Raltegravir.json",
             "BuildingBlocks": []
         }
     ],
@@ -118,175 +118,98 @@
                 }
             ]
         },
-        "GOFMergedPlots": [
+        "AllPlots": [
             {
-                "Title": "Goodness-of-fit visual diagnostic plots of the raltegravir PBPK model performance: observed versus individually predicted plasma concentration versus time of all adult data.",
-                "SectionId": 41,
-                "PlotType": "predictedVsObserved",
-                "Groups": [
-                    {
-                        "Caption": "Raltegravir lactose formulation",
-                        "Symbol": "Triangle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 10 mg   (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 25 mg  (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 50 mg  (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 100 mg  (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 200 mg   (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 800 mg  (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Raltegravir filmcoated tablet",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 100 mg filmcoated tablet md",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 200 mg filmcoated tablet md",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 200 mg filmcoated tablet md",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400 mg filmcoated tablet md",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Raltegravir chewable tablet",
-                        "Symbol": "Asterisk",
-                        "OutputMappings": [
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg chewable fasted",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg chewable fed",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Raltegravir granules in suspension",
-                        "Symbol": "Square",
-                        "OutputMappings": [
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg (granules in suspension)",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
-                                "Color": "#000000"
-                            }
-                        ]
-                    }
-                ]
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400mg chewable fasted",
+                "SectionId": 42
             },
             {
-                "Title": "Goodness-of-fit visual diagnostic plots of the raltegravir PBPK model performance: weighted residuals versus time of all adult data.",
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400mg chewable fed",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 100 mg filmcoated tablet md",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 200 mg filmcoated tablet md",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400 mg filmcoated tablet md",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400mg filmcoated tablet",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400mg (granules in suspension)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 10 mg   (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 100 mg  (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 200 mg   (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 25 mg  (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 400mg (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 50 mg  (lactose formulation)",
+                "SectionId": 42
+            },
+            {
+                "Project": "Raltegravir",
+                "Simulation": "Raltegravir 800 mg  (lactose formulation)",
+                "SectionId": 42
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma.",
                 "SectionId": 41,
-                "PlotType": "residualsOverTime",
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
                 "Groups": [
                     {
                         "Caption": "Raltegravir lactose formulation",
@@ -448,88 +371,9 @@
                 ]
             }
         ],
-        "AllPlots": [
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg chewable fasted",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg chewable fed",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 100 mg filmcoated tablet md",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 200 mg filmcoated tablet md",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400 mg filmcoated tablet md",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg (granules in suspension)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 10 mg   (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 100 mg  (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 200 mg   (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 25 mg  (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 400mg (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 50 mg  (lactose formulation)",
-                "SectionId": 42
-            },
-            {
-                "Project": "Raltegravir",
-                "Simulation": "Raltegravir 800 mg  (lactose formulation)",
-                "SectionId": 42
-            }
-        ]
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
     },
     "Inputs": [
         {
@@ -592,7 +436,7 @@
             ]
         },
         {
-            "Id": 2,
+            "Id": 3,
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Title": "3 Results and Discussion",
             "Sections": [
@@ -614,12 +458,12 @@
             ]
         },
         {
-            "Id": 3,
+            "Id": 4,
             "Content": "Content/Section4_Conclusion.md",
             "Title": "4 Conclusion"
         },
         {
-            "Id": 4,
+            "Id": 5,
             "Content": "Content/References.md",
             "Title": "5 References"
         }
