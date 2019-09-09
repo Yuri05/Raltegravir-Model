@@ -22,7 +22,7 @@ jsonFile = 'report-configuration-plan.json';
 
 % --------------------------------------------------------------
 %OPTIONAL: replace qualificationRunnerPath and qualificationPlan with your paths and call the qualification runner first
-qualificationRunnerPath = 'C:\QualificationRunner 8.0.51';
+qualificationRunnerPath = fullfile(cd,'..','..','..','_software','QualificationRunner');
 qualificationPlan = fullfile(cd,'Input','evaluation_plan.json');
 
 startQualificationRunner(qualificationRunnerPath, qualificationPlan, REInput_path);
@@ -52,7 +52,7 @@ fprintf('\n Qualification Workflow Duration: %0.1f minutes \n', QualificationWor
 % - MarkdownJoiner_path: location of markdown-joiner.exe
 
 ReportOutput_path=fullfile(cd,'Output','md_output');
-MarkdownJoiner_path= 'C:\MD\markdown-joiner.exe';
+MarkdownJoiner_path=fullfile(cd,'..','..','..','_software','markdown-joiner','markdown-joiner.exe');
 
 % alternative #1: ReportOutput_path must be empty. If not, report generation will fail
 status = system([MarkdownJoiner_path ' -i ' REOutput_path ' -o ' ReportOutput_path]);
