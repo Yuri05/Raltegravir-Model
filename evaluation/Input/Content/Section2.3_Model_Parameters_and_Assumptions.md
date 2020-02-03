@@ -27,13 +27,13 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Kassahun et al. ([Kassahun 2007](#5 References)) studied the absorption, metabolism, and excretion of raltegravir in healthy volunteers after a single oral dose of 200 mg (200Ci) of [14C] raltegravir. Human liver microsomal incubations confirmed the dominat role of UGT metabolism for raltegravir. Additionally, data from incubations using cDNA-expressed UGTs indicate that the major mechanism of clearance of raltegravir in humans is UGT1A1-mediated glucuronidation. Raltegravir was in particular converted to M2 by UGT1A1 and 1A9. The apparent Km values for the glucuronidation of raltegravir by UGT1A1 and UGT1A9 were 99 (standard deviation (SD): 16) and 296 (SD: 55) µM, respectively. The corresponding Vmax values (nmol/min/mg) were 0.89 (SD: 0.05) for UGT1A1, and 0.53 (SD: 0.06) for UGT1A9.
 
-Based on this information, the reported in vitro Km values for UGT1A1 and 1A9 in the model. Reported Vmax values were of the dimension nmol/min/mg protein and thus not directly transferable into the PBPK model. Therefore, a unique scaling factor fUGT on the in vitro Vmax values was estimated to match observed in vivo data, and keeping the relative relationship between those in vitro values (0.89 and 0.53 nmol/min/mg) for UGT1A1 and UGT1A9 fixed according to:
+Based on this information, the reported in vitro Km values for UGT1A1 and 1A9 in the model. Reported Vmax values were of the dimension nmol/min/mg protein and thus not directly transferable into the PBPK model. Therefore, a joint scaling factor f<sub>UGT </sub> on the *in vitro* V<sub>max</sub> values was estimated to match observed *in vivo* data, and keeping the relative relationship between those *in vitro* values (0.89 and 0.53 nmol/min/mg) for UGT1A1 and UGT1A9 fixed according to:
 
-V<sub>max,UGT1A1</sub> = f<sub>UGT </sub> *  V<sub>max,in-vitro,UGT1A9</sub>
+V<sub>max,UGT1A1</sub> = f<sub>UGT </sub> *  V<sub>max,in-vitro,UGT1A1</sub>
 
 V<sub>max,UGT1A9</sub> = f<sub>UGT</sub> * V<sub>max,in-vitro,UGT1A9</sub>
 
 It is especially important to fix the relative contribution of both enzymes as a ratio to ensure that, when scaling to other populations (e.g. children where both UGT’s undergo a different ontogeny pattern, or patients who have differently reduced amounts of UGT1A1 vs 1A9) the relative contributions can be adequately scaled. 
-Note that the estimated scaling factor f<sub>UGT</sub> will be directly implemented into the final in vivo Vmax values (only Vmax,UGT1A1 and Vmax,UGT1A9 will be reported in [section 3](#3 Results and Discussion))
+Note that the estimated scaling factor f<sub>UGT</sub> will be directly implemented into the final *in vivo* V<sub>max</sub> values (only V<sub>max,UGT1A1</sub> and V<sub>max,UGT1A9</sub> will be reported in [section 3](#3 Results and Discussion))
 
 Finally, as ~9% of the dose is excreted in human urine as unchanged parent compound, GFR is introduced in the raltegravir PBPK model.

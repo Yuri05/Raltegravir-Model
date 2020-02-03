@@ -2,7 +2,7 @@ The PBPK model **raltegravir** was developed with clinical pharmacokinetic data 
 
 As there were 4 different oral formulations available for model evaluation, all formulations require an estimation of the dissolution kinetics via a Weibull function. This function requires the estimation of 2 parameters, the dissolution time (time where 50% of the drug is dissolved), and dissolution shape (shape parameter of the Weibull function). Therefore, to minimize the amount of parameters for fitting, as a first step, the PK study data (lactose formulation) by Iwamoto et al. ([Iwamoto 2007](#5 References)) was fitted which includes SD escalation and hast a broad dose-range (10mg-1600mg) to capture (non-) linearity. During the model-fitting, the following parameters were estimated (all other parameters were fixed to reported values):
 
-*	V<sub>max</sub> (as unique scaling factor fUGT, as described in [section 2.3.3](#2.3 Model parameters and assumptions)) 
+*	V<sub>max</sub> (as unique scaling factor f<sub>UGT </sub>, as described in [section 2.3.3](#2.3 Model parameters and assumptions)) 
 *	Weibul function paramters: Dissolution time and dissolution shape
 *	Specific intestinal permeability (transcellular)
 
