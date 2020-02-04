@@ -6,27 +6,7 @@ close all
 tic
 
 % --------------------------------------------------------------
-% replace qualificationRunnerFolder and markdownJoinerFolder with your paths
-qualificationRunnerFolder = 'C:\Software\QualificationRunner 8.0.51';
-markdownJoinerFolder = 'C:\Software\markdown-joiner';
-
-% --------------------------------------------------------------
-% replace baseDir and qualificationPlanName with your paths
-%
-% assuming the following structure
-%   baseDir
-%   - input
-%      - qualificationPlanName
-%   - re_input
-%   - re_output
-%   - report
-%
-
-baseDir = fullfile(cd);
-qualificationPlanName = 'evaluation_plan.json';
-
-% In case your folder structure is different from assumed above, 
-% qualificationPlan, REInput_path, REOutput_path and ReportOutput_path must be adjusted as well 
+% replace REInput_path, REOutput_path and jsonFile with your paths
 %
 % - REInput_path: input path for the Reporting engine 
 %                 (corresponds to the output path defined in the Qualification Runner)
@@ -34,25 +14,27 @@ qualificationPlanName = 'evaluation_plan.json';
 % - REOutput_path: outputs of the Reporting Engine will be created here
 %                  CAUTION: if the folder is not empty, its contents will be deleted
 %
-% - ReportOutput_path: final report will be generated here
-qualificationPlan = fullfile(baseDir,'input',qualificationPlanName);
-REInput_path = fullfile(baseDir,'re_input');
-REOutput_path = fullfile(baseDir,'re_output');
-ReportOutput_path=fullfile(baseDir,'report');
+% - jsonFile: report configuration file defined in the Qualification Runner
+%             (default is 'report-configuration-plan.json')
+REInput_path = fullfile(cd,'Output','re_input');
+REOutput_path = fullfile(cd,'Output','re_output');
+jsonFile = 'report-configuration-plan.json';
 
 % --------------------------------------------------------------
-% STEP #1: start qualification runner to generate inputs for the reporting engine
-startQualificationRunner(qualificationRunnerFolder, qualificationPlan, REInput_path);
+%OPTIONAL: replace qualificationRunnerPath and qualificationPlan with your paths and call the qualification runner first
+qualificationRunnerPath = fullfile('C:\OSPQualification\QualificationRunner8.0.51\');
+qualificationPlan = fullfile(cd,'Input','Evaluation_plan.json');
+
+startQualificationRunner(qualificationRunnerPath, qualificationPlan, REInput_path);
 
 % --------------------------------------------------------------
-% STEP #2: start reporting engine
 % Get the Configuration Plan Settings
-reportConfigurationPlan = 'report-configuration-plan.json';
-[WSettings, ConfigurationPlan, TaskList, ObservedDataSets] = initializeQualificationWorkflow(reportConfigurationPlan, REInput_path, REOutput_path);
+[WSettings, ConfigurationPlan, TaskList, ObservedDataSets] = initializeQualificationWorkflow(jsonFile, REInput_path, REOutput_path);
 
 %OPTIONAL: set watermark. If set, it will appear in all generated plots
-WSettings.Watermark = 'Preliminary';
+%WSettings.Watermark = 'Preliminary';
 
+% --------------------------------------------------------------
 % run the Worklfow tasklist of ConfigurationPlan
 runQualificationWorkflow(WSettings, ConfigurationPlan, TaskList, ObservedDataSets);
 
@@ -60,14 +42,26 @@ QualificationWorkflowTime = toc/60;
 fprintf('\n Qualification Workflow Duration: %0.1f minutes \n', QualificationWorkflowTime);
 
 % --------------------------------------------------------------
-% STEP #3: call MarkdownJoiner to combine Reporting Engine output into the final report
-MarkdownJoiner_path=fullfile(markdownJoinerFolder,'markdown-joiner.exe');
+%OPTIONAL: call MarkdownJoiner to combine Reporting Engine output into the final report
+% (this can be also done later from Windows command line)
+%
+% replace ReportOutput_path and MarkdownJoiner_path with your paths
+%
+% - ReportOutput_path: final report will be generated here
+%
+% - MarkdownJoiner_path: location of markdown-joiner.exe
+
+ReportOutput_path=fullfile(cd,'Output','md_output');
+MarkdownJoiner_path=fullfile('C:\OSPQualification\Markdownjoiner1.1.0\markdown-joiner.exe');
 
 % alternative #1: ReportOutput_path must be empty. If not, report generation will fail
-status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '"']);
+status = system([MarkdownJoiner_path ' -i ' REOutput_path ' -o ' ReportOutput_path]);
 
 % alternative #2: (CAUTION) ReportOutput_path will be cleared first
-%status = system(['"' MarkdownJoiner_path '" -i "' REOutput_path '" -o "' ReportOutput_path '" -f']);
+%status = system([MarkdownJoiner_path ' -i ' REOutput_path ' -o ' ReportOutput_path ' -f']);
 
-if status~=0 error('MarkdownJoiner failed'); end
+if status~=0
+    error('MarkdownJoiner failed');
+end
 
+mergeQualificationMarkdown([ReportOutput_path filesep 'markdown_for_pdf'], [ReportOutput_path filesep 'report_merged.md']);
