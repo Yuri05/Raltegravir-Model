@@ -3,7 +3,7 @@
     "Projects": [
         {
             "Id": "Raltegravir",
-            "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Model/master/Raltegravir.json",
+            "Path": "../../Raltegravir.json",
             "BuildingBlocks": []
         }
     ],

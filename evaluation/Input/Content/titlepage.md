@@ -4,10 +4,11 @@
 
 
 
-| Version     | 0.1                                                          |
-| ----------- | ------------------------------------------------------------ |
-| Release     |                                                              |
-| Repository  | https://github.com/Open-Systems-Pharmacology/Raltegravir-Model |
-| OSP Version | 8.0                                                          |
-| Author      | Ibrahim Ince (incei)                                         |
+| Version                         | 0.1                                                          |
+| ------------------------------- | ------------------------------------------------------------ |
+| Release                         |                                                              |
+| Repository                      | https://github.com/Open-Systems-Pharmacology/Raltegravir-Model |
+| OSP Version                     | 8.0                                                          |
+| Qualification framework Version |                                                              |
+| Author                          | Ibrahim Ince (incei)                                         |
 
