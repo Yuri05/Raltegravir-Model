@@ -48,8 +48,10 @@ A final PBPK model was established and simulations were compared to the reported
 
 During model building, uncertainties in data quality, as well as study differences may cause not being able to adequately describe the PK of all reported clinical studies. 
 
+#  
 
 ## 2.2 Data used
+
 ### 2.2.1 In vitro / physico-chemical data
 
 A literature search was performed to collect available information on physicochemical properties of raltegravir. The obtained information from literature is summarized in the table below, and is used for model building.
@@ -81,11 +83,13 @@ The following publications were found in adults for model building and evaluatio
 | [Rhee 2014](#5-References)     | Pediatric formulation study in healthy adults                |
 | [Wenning 2009](#5-References)  | Effect of rifampin on the pharmacokinetics of raltegravir    |
 
+#  
 
 ## 2.3 Model parameters and assumptions
+
 ### 2.3.1 Absorption
 
-As no intravenous data is currently available to study systemic clearance of raltegravir *in vivo*, only oral data was used for model building. For oral administration the following parameters play a role with regards to the absorption kinetics of a compound, which can be estimated with PBPK: solubility, lipophilicity and intestinal permeability. Moss et al. ([Moss 2013](#5-References)) published values for raltegravir solubility in population groups with very low-, low-, medium-, high-, and very high intestinal luminal pH, after a single 400 mg dose of raltegravir. For the raltegravir PBPK model we have applied the medium pH group for creating a pH dependent solubility profile throughout the intestinal tract. The lipophilicity as well as pKa of raltegravir was also published by Moss et al ([Moss 2012, Moss 2013](#5-References)) to be 0.58 (as log partition coefficient between octanol and water (pH 7) and 6.67 (acid)), respectively. These values were applied and fixed in the raltegravir PBPK model, without further optimization. Regarding intestinal transcellular permeability (Pint), Moss et al ([Moss 2012](#5-References)) reported a range of apical to basolateral apparent permeability in Caco-2 monolayer at different pH values. Using published functions Pint can be calculated from Caco-2 cell membrane permeability measurements (Parrot et al. ([Parrot 2002](#5-References))), Thelen et al. ([Thelen 2010](#5-References), Sun et al. ([Sun 2002](#5-References)) and Sjögren et al. ([Sjögren 2013](#5-References))). However as no reference/calibrator compound was available to correct for inter-study variability, these functions could not be applied, and it was decided to estimate the Pint from *in vivo* clinical data instead. Nevertheless, for plausibility check, a theoretical Pint was calculated using the aforementioned functions without correction, resulting in a range of Pint from 2.14E-04 to 1.47E-09 cm/min. The finally estimated (based on *in vivo* data) Pint falls within this range.
+As no intravenous data is currently available to study systemic clearance of raltegravir *in vivo*, only oral data was used for model building. For oral administration the following parameters play a role with regards to the absorption kinetics of a compound, which can be estimated with PBPK: solubility, lipophilicity and intestinal permeability. Moss et al. ([Moss 2013](#5-References)) published values for raltegravir solubility in population groups with very low-, low-, medium-, high-, and very high intestinal luminal pH, after a single 400 mg dose of raltegravir. For the raltegravir PBPK model we have applied the medium pH group for creating a pH dependent solubility profile throughout the intestinal tract. The lipophilicity as well as pKa of raltegravir was also published by Moss et al ([Moss 2012, Moss 2013](#5-References)) to be 0.58 (as log partition coefficient between octanol and water (pH 7)) and 6.67 (acid), respectively. These values were applied and fixed in the raltegravir PBPK model, without further optimization. Regarding intestinal transcellular permeability (Pint), Moss et al ([Moss 2012](#5-References)) reported a range of apical to basolateral apparent permeability in Caco-2 monolayer at different pH values. Using published functions Pint can be calculated from Caco-2 cell membrane permeability measurements (Parrot et al. ([Parrot 2002](#5-References)), Thelen et al. ([Thelen 2010](#5-References), Sun et al. ([Sun 2002](#5-References)) and Sjögren et al. ([Sjögren 2013](#5-References)). However as no reference/calibrator compound was available to correct for inter-study variability, these functions could not be applied, and it was decided to estimate the Pint from *in vivo* clinical data instead. Nevertheless, for plausibility check, a theoretical Pint was calculated using the aforementioned functions without correction, resulting in a range of Pint from 2.14E-04 to 1.47E-09 cm/min. The finally estimated (based on *in vivo* data) Pint falls within this range.
 
 **Table 2.** Reported Caco-permeability and calculated theoretical effective permeability (intestinal transcellular permeability, Peff) values for raltegravir via different reported functions, lacking a reference compound for correcting inter-study variability.
 
@@ -102,6 +106,7 @@ As no intravenous data is currently available to study systemic clearance of ral
 
 *Not published as paper, Simcyp applied an adapted version of Sun et al 2002 
 
+#  
 ### 2.3.2 Distribution
 
 Laufer et al. ([Laufer 2009](#5-References)) published a fu in humans to be 0.17. [Barau et al 2013](#5-References) reported that raltegravir binds to serum albumin, and not alpha glycoprotein, which is built-in as such in the PBPK model.
@@ -136,7 +141,7 @@ The fit resulted in an adequate description of all data. As there is no iv data 
 
 As a second step, clincial study data for all other formulations summarised in [section 2.2.2](#2.2-Data used) were included for model fitting, including film-coated tablets (100-400mg MD, 200-400mg SD), chewable tablets (400mg fasted + fed) and oral granules in suspension (400mg). In this step, only the Weibull functions were estimated with all other parameters fixed based on the first step. Finally, as the Weibull functions were highly correlated (as expected), only dissolution shape was estimated as a last step. The model results show that the PBPK model of raltegravir adequately described the date for all formulations and doses available.
 
-
+#  
 ## 3.1 Raltegravir final input parameters
 The compound parameter values of the final raltegravir PBPK model are illustrated below.
 
@@ -163,6 +168,8 @@ Dissolution time (50% dissolved) | 500 min    | Parameter Identification |
 Lag time                         | 0 min      |                          |
 Dissolution shape                | 0.03536656 | Parameter Identification |
 Use as suspension                | Yes        |                          |
+
+#  
 
 ### Compound: Raltegravir
 
@@ -194,6 +201,8 @@ Species: Human
 Name         | Value | Value Origin                       |
 ------------ | -----:| ---------------------------------- |
 GFR fraction |     1 | Publication-In Vitro-Kassahun 2007 |
+
+#  
 ##### Metabolizing Enzyme: UGT1A1-Kassahun 2007
 
 Molecule: UGT1A1
@@ -203,6 +212,7 @@ Name                               | Value                                 | Val
 ---------------------------------- | ------------------------------------- | ---------------------------------- |
 In vitro Vmax for liver microsomes | 2.7351231632 nmol/min/mg mic. protein | Parameter Identification           |
 Km                                 | 99 µM                                 | Publication-In Vitro-Kassahun 2007 |
+
 ### Metabolizing Enzyme: UGT1A9-Kassahun 2007
 
 Molecule: UGT1A9
@@ -237,6 +247,7 @@ Lag time                         | 0 min              |                         
 Dissolution shape                | 0.0389537131       | Parameter Identification |
 Use as suspension                | Yes                |                          |
 
+#  
 ## 3.2 Raltegravir Diagnostics Plots
 Below you find the goodness-of-fit visual diagnostic plots for raltegravir PBPK model performance (observed versus individually simulated plasma concentration and weighted residuals versus time) of all data used for model building.
 
