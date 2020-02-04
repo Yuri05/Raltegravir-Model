@@ -1,3 +1,8 @@
+**Barau 2013** Caroline Barau, Valérie Furlan, Yazdan Yazdanpanah, Catherine Fagard, Jean-Michel Molina, Anne-Marie Taburet, and Aurélie Barrail-Tran. Characterization of Binding of Raltegravir to Plasma Proteins. Antimicrob Agents Chemother. 2013 Oct; 57(10): 5147–5150.
+doi: 10.1128/AAC.00625-13.
+
+**Drugbank.ca** (https://www.drugbank.ca/drugs/DB06817 )
+
 **Iwamoto 2008** Iwamoto M, Wenning LA, Petry AS, Laethem M, De Smet M, Kost JT, Merschman SA, Strohmaier KM, Ramael S, Lasseter KC, Stone JA, Gottesdiener KM, Wagner JA. Safety, tolerability, and pharmacokinetics of raltegravir after single and multiple doses in healthy subjects. Clin Pharmacol Ther. 2008 Feb;83(2):293-9. Epub 2007 Aug 22.
 
 **Iwamoto 2009** Iwamoto M, Wenning LA, Nguyen BY, Teppler H, Moreau AR, Rhodes RR, Hanley WD, Jin B, Harvey CM, Breidinger SA, Azrolan N, Farmer HF Jr, Isaacs RD, Chodakewitz JA, Stone JA, Wagner JA. Effects of omeprazole on plasma levels of raltegravir. Clin Infect Dis. 2009 Feb 15;48(4):489-92. doi: 10.1086/596503.
@@ -6,15 +11,13 @@
 
 **Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19. 
 
-**Wenning 2009** Larissa A. Wenning,, William D. Hanley, Diana M. Brainard, Amelia S. Petry, Kalyan Ghosh, Bo Jin, Eric Mangin, Thomas C. Marbury, Jolene K. Berg, Jeffrey A. Chodakewitz, Julie A. Stone,1 Keith M. Gottesdiener, John A. Wagner, and Marian Iwamoto. Effect of Rifampin, a Potent Inducer of Drug-Metabolizing Enzymes, on the Pharmacokinetics of Raltegravir. Antimicrob Agents Chemother. 2009 Jul; 53(7): 2852–2856.
-
 **Laufer 2009** Laufer R, Paz OG, Di Marco A, Bonelli F, Monteagudo E, Summa V, Rowley M. Quantitative prediction of human clearance guiding the development of Raltegravir (MK-0518, isentress) and related HIV integrase inhibitors. Drug Metab Dispos. 2009 Apr;37(4):873-83. doi: 10.1124/dmd.108.023804. Epub 2009 Jan 14.
 
 **Markowitz 2006** Markowitz M, Morales-Ramirez JO, Nguyen BY, Kovacs CM, Steigbigel RT, Cooper DA, Liporace R, Schwartz R, Isaacs R, Gilde LR, Wenning L, Zhao J, Teppler H. Antiretroviral activity, pharmacokinetics, and tolerability of MK-0518, a novel inhibitor of HIV-1 integrase, dosed as monotherapy for 10 days in treatment-naive HIV-1-infected individuals. J Acquir Immune Defic Syndr. 2006 Dec 15;43(5):509-15.
 
-**Moss 2013** Moss DM, Siccardi M, Back DJ, Owen A. Predicting intestinal absorption of raltegravir using a population-based ADME simulation. J Antimicrob Chemother. 2013 Jul;68(7):1627-34. doi: 10.1093/jac/dkt084. Epub 2013 Mar 20.
-
 **Moss 2012** Moss DM, Siccardi M, Murphy M, Piperakis MM, Khoo SH, Back DJ, Owen A. Divalent metals and pH alter raltegravir disposition in vitro. Antimicrob Agents Chemother. 2012 Jun;56(6):3020-6. doi: 10.1128/AAC.06407-11. Epub 2012 Mar 26.
+
+**Moss 2013** Moss DM, Siccardi M, Back DJ, Owen A. Predicting intestinal absorption of raltegravir using a population-based ADME simulation. J Antimicrob Chemother. 2013 Jul;68(7):1627-34. doi: 10.1093/jac/dkt084. Epub 2013 Mar 20.
 
 **Parrott 2008** Parrott N, Lave T. Applications of physiologically based absorption models in drug discovery and development. Mol Pharm. 2008 Sep-Oct;5(5):760-75. doi: 10.1021/mp8000155. Epub 2008 Jun 12.
 
@@ -29,3 +32,5 @@
 **Sun 2002** Sun D, Lennernas H, Welage LS, Barnett JL, Landowski CP, Foster D, Fleisher D, Lee KD, Amidon GL. Comparison of human duodenum and Caco-2 gene expression profiles for 12,000 gene sequences tags and correlation with permeability of 26 drugs. Pharm Res. 2002 Oct;19(10):1400-16. 
 
 **Thelen 2011** Thelen K, Coboeken K, Willmann S, Burghaus R, Dressman JB, Lippert J. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, part 1: oral solutions. J Pharm Sci. 2011 Dec;100(12):5324-45. doi: 10.1002/jps.22726. Epub 2011 Oct 12
+
+**Wenning 2009** Larissa A. Wenning,, William D. Hanley, Diana M. Brainard, Amelia S. Petry, Kalyan Ghosh, Bo Jin, Eric Mangin, Thomas C. Marbury, Jolene K. Berg, Jeffrey A. Chodakewitz, Julie A. Stone,1 Keith M. Gottesdiener, John A. Wagner, and Marian Iwamoto. Effect of Rifampin, a Potent Inducer of Drug-Metabolizing Enzymes, on the Pharmacokinetics of Raltegravir. Antimicrob Agents Chemother. 2009 Jul; 53(7): 2852–2856.
