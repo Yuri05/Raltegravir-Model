@@ -1,102 +1,51 @@
 {
-  "Version": 78,
-  "Individuals": [
+  "Version": 80,
+  "ExpressionProfiles": [
     {
-      "Name": "Standard European Male for PEQ",
-      "Seed": 2515843,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT1A1",
+      "Category": "Standard European Male for PEQ",
       "Parameters": [
         {
           "Path": "Organism|Gonads|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0013585313175
         },
         {
-          "Path": "Organism|Gonads|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.00016153846154
-        },
-        {
           "Path": "Organism|Kidney|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0788336933
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|UGT1A9|Relative expression",
-          "Value": 1.0
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
         },
         {
-          "Path": "Organism|LargeIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
-        },
-        {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
         },
         {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
-        },
-        {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
         },
         {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
-        },
-        {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.0349892009
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0079487179487
         },
         {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A1|Relative expression",
           "Value": 1.0
         },
         {
-          "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
-        },
-        {
           "Path": "Organism|Liver|Periportal|Intracellular|UGT1A1|Relative expression",
           "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0982905983
         },
         {
           "Path": "Organism|Lung|Intracellular|UGT1A1|Relative expression",
@@ -107,56 +56,28 @@
           "Value": 0.3239740821
         },
         {
-          "Path": "Organism|SmallIntestine|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.3239740821
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.3239740821
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.3239740821
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A1|Relative expression",
           "Value": 0.3239740821
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0041282051282
-        },
-        {
           "Path": "Organism|Stomach|Intracellular|UGT1A1|Relative expression",
           "Value": 0.016349892
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|UGT1A9|Relative expression",
-          "Value": 0.0017264957265
         },
         {
           "Path": "UGT1A1|Reference concentration",
@@ -177,6 +98,86 @@
           "Path": "UGT1A1|t1/2 (liver)",
           "Value": 36.0,
           "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT1A1"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT1A9",
+      "Category": "Standard European Male for PEQ",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.00016153846154
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|UGT1A9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|Caecum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0079487179487
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0982905983
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0982905983
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0041282051282
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|UGT1A9|Relative expression",
+          "Value": 0.0017264957265
         },
         {
           "Path": "UGT1A9|Reference concentration",
@@ -199,23 +200,32 @@
           "Unit": "h"
         }
       ],
-      "Molecules": [
-        {
-          "Name": "UGT1A1",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "UGT1A1"
-          }
-        },
-        {
-          "Name": "UGT1A9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "UGT1A9"
-          }
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT1A9"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Standard European Male for PEQ",
+      "Seed": 2515843,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
         }
+      },
+      "ExpressionProfiles": [
+        "UGT1A1|Human|Standard European Male for PEQ",
+        "UGT1A9|Human|Standard European Male for PEQ"
       ]
     }
   ],
@@ -962,13 +972,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 800 mg  (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -1203,13 +1220,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 10 mg   (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -1444,13 +1468,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 100 mg  (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -1541,6 +1572,17 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "None",
@@ -1597,6 +1639,17 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "None",
@@ -1659,13 +1712,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 1200 mg   (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -1900,13 +1960,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 1600 mg  (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -2141,13 +2208,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 200 mg   (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -2382,13 +2456,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 25 mg  (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -2623,13 +2704,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 50 mg  (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -2864,13 +2952,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg chewable fasted|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -2974,6 +3069,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg chewable fasted\n2019-08-06 12:44"
         },
         {
@@ -3037,6 +3138,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg chewable fasted\n2019-08-06 12:44"
         }
       ]
@@ -3095,13 +3202,30 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg filmcoated tablet|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg filmcoated tablet|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg filmcoated tablet|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -3227,6 +3351,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg filmcoated tablet\n2019-08-06 08:47"
         },
         {
@@ -3312,6 +3442,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg filmcoated tablet\n2019-08-06 08:47"
         }
       ]
@@ -3368,13 +3504,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg (lactose formulation)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -3637,108 +3780,115 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 100 mg filmcoated tablet md|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -4010,108 +4160,120 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 200 mg filmcoated tablet md|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 200 mg filmcoated tablet md|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -4213,6 +4375,23 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 200 mg filmcoated tablet md\n2019-08-06 08:46"
         },
         {
@@ -4278,6 +4457,23 @@
             }
           ],
           "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 200 mg filmcoated tablet md\n2019-08-06 08:46"
         }
       ]
@@ -4362,108 +4558,115 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400 mg filmcoated tablet md|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -4690,13 +4893,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg (granules in suspension)|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -4931,13 +5141,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Raltegravir 400mg chewable fed|Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Standard European Male for PEQ",
       "Compounds": [
@@ -5050,6 +5267,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg chewable fed\n2019-08-06 08:45"
         },
         {
@@ -5113,6 +5336,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Raltegravir\nRaltegravir 400mg chewable fed\n2019-08-06 08:45"
         }
       ]
@@ -5148,15 +5377,18 @@
           "Properties": [
             {
               "Name": "BreakCondition",
-              "Value": 0.001
+              "Value": 0.001,
+              "Type": "Double"
             },
             {
               "Name": "InitialAlpha",
-              "Value": 30.0
+              "Value": 30.0,
+              "Type": "Double"
             },
             {
               "Name": "MaxIterations",
-              "Value": 10000.0
+              "Value": 10000.0,
+              "Type": "Double"
             }
           ]
         },
@@ -5261,10 +5493,10 @@
           "Name": "Dis shape filmcoated tablet",
           "Scaling": "Log",
           "LinkedParameters": [
-            "Raltegravir 400mg filmcoated tablet|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution shape",
-            "Raltegravir 400 mg filmcoated tablet md|Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
-            "Raltegravir 200 mg filmcoated tablet md|Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
-            "Raltegravir 100 mg filmcoated tablet md|Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape"
+            "Raltegravir 400mg filmcoated tablet|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution shape",
+            "Raltegravir 400 mg filmcoated tablet md|Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
+            "Raltegravir 200 mg filmcoated tablet md|Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape",
+            "Raltegravir 100 mg filmcoated tablet md|Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution shape"
           ],
           "Parameters": [
             {
@@ -5286,10 +5518,10 @@
           "Scaling": "Log",
           "IsFixed": true,
           "LinkedParameters": [
-            "Raltegravir 400mg filmcoated tablet|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 400 mg filmcoated tablet md|Applications|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 200 mg filmcoated tablet md|Applications|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 100 mg filmcoated tablet md|Applications|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)"
+            "Raltegravir 400mg filmcoated tablet|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 400 mg filmcoated tablet md|Events|Markowitz 2006 400mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 200 mg filmcoated tablet md|Events|Markowitz 2006 200mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 100 mg filmcoated tablet md|Events|Markowitz 2006 100mg bid 10d|filmcoated tablet (original Merck formulation)|Dissolution time (50% dissolved)"
           ],
           "Parameters": [
             {
@@ -5314,15 +5546,15 @@
           "Scaling": "Log",
           "IsFixed": true,
           "LinkedParameters": [
-            "Raltegravir 50 mg  (lactose formulation)|Applications|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 25 mg  (lactose formulation)|Applications|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 200 mg   (lactose formulation)|Applications|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 1600 mg  (lactose formulation)|Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 10 mg   (lactose formulation)|Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 100 mg  (lactose formulation)|Applications|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 400mg (lactose formulation)|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 800 mg  (lactose formulation)|Applications|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
-            "Raltegravir 1200 mg   (lactose formulation)|Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape"
+            "Raltegravir 50 mg  (lactose formulation)|Events|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 25 mg  (lactose formulation)|Events|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 200 mg   (lactose formulation)|Events|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 1600 mg  (lactose formulation)|Events|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 10 mg   (lactose formulation)|Events|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 100 mg  (lactose formulation)|Events|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 400mg (lactose formulation)|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 800 mg  (lactose formulation)|Events|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape",
+            "Raltegravir 1200 mg   (lactose formulation)|Events|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution shape"
           ],
           "Parameters": [
             {
@@ -5344,15 +5576,15 @@
           "Scaling": "Log",
           "IsFixed": true,
           "LinkedParameters": [
-            "Raltegravir 50 mg  (lactose formulation)|Applications|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 25 mg  (lactose formulation)|Applications|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 200 mg   (lactose formulation)|Applications|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 1600 mg  (lactose formulation)|Applications|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 10 mg   (lactose formulation)|Applications|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 100 mg  (lactose formulation)|Applications|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 400mg (lactose formulation)|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 800 mg  (lactose formulation)|Applications|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
-            "Raltegravir 1200 mg   (lactose formulation)|Applications|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)"
+            "Raltegravir 50 mg  (lactose formulation)|Events|Iwamoto 2008 50mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 25 mg  (lactose formulation)|Events|Iwamoto 2008 25mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 200 mg   (lactose formulation)|Events|Iwamoto 2008 200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 1600 mg  (lactose formulation)|Events|Iwamoto 2008 1600mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 10 mg   (lactose formulation)|Events|Iwamoto 2008 10mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 100 mg  (lactose formulation)|Events|Iwamoto 2008 100mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 400mg (lactose formulation)|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 800 mg  (lactose formulation)|Events|Iwamoto 2008 800mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)",
+            "Raltegravir 1200 mg   (lactose formulation)|Events|Iwamoto 2008 1200mg PO (Figure 2) Safety-Tolerability-PK study|Weibull (lactose formulation)|Dissolution time (50% dissolved)"
           ],
           "Parameters": [
             {
@@ -5377,8 +5609,8 @@
           "Scaling": "Log",
           "IsFixed": true,
           "LinkedParameters": [
-            "Raltegravir 400mg chewable fasted|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution time (50% dissolved)",
-            "Raltegravir 400mg chewable fed|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution time (50% dissolved)"
+            "Raltegravir 400mg chewable fasted|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution time (50% dissolved)",
+            "Raltegravir 400mg chewable fed|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution time (50% dissolved)"
           ],
           "Parameters": [
             {
@@ -5402,8 +5634,8 @@
           "Name": "Dis shape chewable tablet",
           "Scaling": "Log",
           "LinkedParameters": [
-            "Raltegravir 400mg chewable fasted|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape",
-            "Raltegravir 400mg chewable fed|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape"
+            "Raltegravir 400mg chewable fasted|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape",
+            "Raltegravir 400mg chewable fed|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|chewable tablet|Dissolution shape"
           ],
           "Parameters": [
             {
@@ -5464,7 +5696,7 @@
           "Name": "Dissolution shape",
           "Scaling": "Linear",
           "LinkedParameters": [
-            "Raltegravir 400mg (granules in suspension)|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution shape"
+            "Raltegravir 400mg (granules in suspension)|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution shape"
           ],
           "Parameters": [
             {
@@ -5486,7 +5718,7 @@
           "Scaling": "Linear",
           "IsFixed": true,
           "LinkedParameters": [
-            "Raltegravir 400mg (granules in suspension)|Applications|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution time (50% dissolved)"
+            "Raltegravir 400mg (granules in suspension)|Events|Iwamoto 2008 400mg PO (Figure 1) omeprazole study|Weibull (granules)|Dissolution time (50% dissolved)"
           ],
           "Parameters": [
             {
@@ -6584,6 +6816,17 @@
               }
             ],
             "Name": "Time Profile",
+            "FontAndSize": {
+              "Fonts": {
+                "AxisSize": 10,
+                "LegendSize": 8,
+                "TitleSize": 16,
+                "DescriptionSize": 12,
+                "OriginSize": 8,
+                "FontFamilyName": "Microsoft Sans Serif",
+                "WatermarkSize": 32
+              }
+            },
             "Settings": {
               "SideMarginsEnabled": true,
               "LegendPosition": "None",
@@ -6824,6 +7067,17 @@
               }
             ],
             "Name": "Predicted vs. Observed",
+            "FontAndSize": {
+              "Fonts": {
+                "AxisSize": 10,
+                "LegendSize": 8,
+                "TitleSize": 16,
+                "DescriptionSize": 12,
+                "OriginSize": 8,
+                "FontFamilyName": "Microsoft Sans Serif",
+                "WatermarkSize": 32
+              }
+            },
             "Settings": {
               "SideMarginsEnabled": true,
               "LegendPosition": "BottomInside",
@@ -6865,7 +7119,24 @@
                 "NumberMode": "Normal"
               }
             ],
-            "Name": "Residuals vs. Time"
+            "Name": "Residuals vs. Time",
+            "FontAndSize": {
+              "Fonts": {
+                "AxisSize": 10,
+                "LegendSize": 8,
+                "TitleSize": 16,
+                "DescriptionSize": 12,
+                "OriginSize": 8,
+                "FontFamilyName": "Microsoft Sans Serif",
+                "WatermarkSize": 32
+              }
+            },
+            "Settings": {
+              "SideMarginsEnabled": true,
+              "LegendPosition": "RightInside",
+              "BackColor": "#00FFFFFF",
+              "DiagramBackColor": "#FFFFFF"
+            }
           }
         },
         {
@@ -6881,88 +7152,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5296.0
+          "Value": 5296.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Markowitz 2006"
+          "Value": "Markowitz 2006",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "100mg FCT MD"
+          "Value": "100mg FCT MD",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "100 mg"
+          "Value": "100 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0-(S12-T12-R18)"
+          "Value": "0-(S12-T12-R18)",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -6984,14 +7271,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Markowitz 2006 - 100mg FCT MD - Raltegravir - PO - 100 mg - Plasma - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           216.0,
@@ -7014,88 +7299,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5297.0
+          "Value": 5297.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Markowitz 2006"
+          "Value": "Markowitz 2006",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "200mg FCT MD"
+          "Value": "200mg FCT MD",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "200 mg"
+          "Value": "200 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0-(S12-T12-R18)"
+          "Value": "0-(S12-T12-R18)",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7117,14 +7418,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           216.0,
@@ -7147,88 +7446,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5298.0
+          "Value": 5298.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Markowitz 2006"
+          "Value": "Markowitz 2006",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17133211",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "400mg FCT MD"
+          "Value": "400mg FCT MD",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0-(S12-T12-R18)"
+          "Value": "0-(S12-T12-R18)",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7250,14 +7565,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Markowitz 2006 - 400mg FCT MD - Raltegravir - PO - 400 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           216.0,
@@ -7280,88 +7593,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5300.0
+          "Value": 5300.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kassahun 2007"
+          "Value": "Kassahun 2007",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17591678"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17591678",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2"
+          "Value": "Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "200mg FCT SD"
+          "Value": "200mg FCT SD",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 8.0
+          "Value": 8.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "200 mg"
+          "Value": "200 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7383,14 +7712,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7413,88 +7740,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5435.0
+          "Value": 5435.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Rhee 2014"
+          "Value": "Rhee 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Chewable tablet fasted"
+          "Value": "Chewable tablet fasted",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "chewable tablet"
+          "Value": "chewable tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7519,14 +7862,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Rhee 2014 - Chewable tablet fasted - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7552,88 +7893,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5436.0
+          "Value": 5436.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Rhee 2014"
+          "Value": "Rhee 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Chewable tablet fed"
+          "Value": "Chewable tablet fed",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "chewable tablet"
+          "Value": "chewable tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fed"
+          "Value": "fed",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7658,14 +8015,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Rhee 2014 - Chewable tablet fed - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7691,88 +8046,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5437.0
+          "Value": 5437.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Rhee 2014"
+          "Value": "Rhee 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "granules suspension"
+          "Value": "granules suspension",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "oral granules for suspension"
+          "Value": "oral granules for suspension",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7797,14 +8168,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Rhee 2014 - granules suspension - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7830,88 +8199,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5438.0
+          "Value": 5438.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Rhee 2014"
+          "Value": "Rhee 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/24608069",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -7936,14 +8321,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7969,88 +8352,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5439.0
+          "Value": 5439.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "10mg"
+          "Value": "10mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8072,14 +8471,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 10mg - Raltegravir - PO - 10 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -8102,88 +8499,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5440.0
+          "Value": 5440.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "25mg"
+          "Value": "25mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "25 mg"
+          "Value": "25 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8204,14 +8617,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 25mg - Raltegravir - PO - 25 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8233,88 +8644,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5441.0
+          "Value": 5441.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "50mg"
+          "Value": "50mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "50 mg"
+          "Value": "50 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8337,14 +8764,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 50mg - Raltegravir - PO - 50 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8368,88 +8793,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5442.0
+          "Value": 5442.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "100mg"
+          "Value": "100mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "100 mg"
+          "Value": "100 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8473,14 +8914,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 100mg - Raltegravir - PO - 100 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8505,88 +8944,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5443.0
+          "Value": 5443.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "200mg"
+          "Value": "200mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "200 mg"
+          "Value": "200 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8611,14 +9066,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 200mg - Raltegravir - PO - 200 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -8644,88 +9097,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5444.0
+          "Value": 5444.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "400mg"
+          "Value": "400mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8751,14 +9220,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -8785,88 +9252,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5445.0
+          "Value": 5445.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "800mg"
+          "Value": "800mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "800 mg"
+          "Value": "800 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -8892,14 +9375,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 800mg - Raltegravir - PO - 800 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -8926,88 +9407,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5446.0
+          "Value": 5446.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "1200mg"
+          "Value": "1200mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1200 mg"
+          "Value": "1200 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -9033,14 +9530,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 1200mg - Raltegravir - PO - 1200 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -9067,88 +9562,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5447.0
+          "Value": 5447.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/17713476",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "1600mg"
+          "Value": "1600mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 24.0
+          "Value": 24.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1600 mg"
+          "Value": "1600 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -9175,14 +9686,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 1600mg - Raltegravir - PO - 1600 mg - Plasma - agg. (n=24)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -9210,88 +9719,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5448.0
+          "Value": 5448.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wenning 2009"
+          "Value": "Wenning 2009",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/19433563"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/19433563",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "400mg"
+          "Value": "400mg",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "lactose formulation"
+          "Value": "lactose formulation",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -9314,14 +9839,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -9345,88 +9868,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5295.0
+          "Value": 5295.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Iwamoto 2008"
+          "Value": "Iwamoto 2008",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/19143531"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/19143531",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1"
+          "Value": "Fig.1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "400mg FCT"
+          "Value": "400mg FCT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 14.0
+          "Value": 14.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Raltegravir"
+          "Value": "Raltegravir",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "filmcoated tablet"
+          "Value": "filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Raltegravir|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 444.4163
           },
           "Values": [
@@ -9450,14 +9989,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,

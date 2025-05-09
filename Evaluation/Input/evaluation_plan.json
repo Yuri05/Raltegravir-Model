@@ -1,5 +1,5 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Raltegravir",
@@ -122,94 +122,97 @@
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400mg chewable fasted",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400mg chewable fed",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 100 mg filmcoated tablet md",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400 mg filmcoated tablet md",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400mg filmcoated tablet",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400mg (granules in suspension)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 10 mg   (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 100 mg  (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 1200 mg   (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 1600 mg  (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 200 mg   (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 25 mg  (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 400mg (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 50 mg  (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Raltegravir",
                 "Simulation": "Raltegravir 800 mg  (lactose formulation)",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma.",
-                "SectionId": 41,
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "Raltegravir lactose formulation",
@@ -295,14 +298,10 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 200 mg filmcoated tablet md",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 200 mg filmcoated tablet md",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)",
+                                "ObservedData": [
+                                    "Markowitz 2006 - 200mg FCT MD - Raltegravir - PO - 200 mg - Plasma - agg. (n=7)",
+                                    "Kassahun 2007 - 200mg FCT SD - Raltegravir - PO - 200 mg - Plasma - agg. (n=8)",
+                                ],
                                 "Color": "#000000"
                             },
                             {
@@ -316,21 +315,11 @@
                                 "Project": "Raltegravir",
                                 "Simulation": "Raltegravir 400mg filmcoated tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)",
-                                "Color": "#000000"
-                            },
-                            {
-                                "Project": "Raltegravir",
-                                "Simulation": "Raltegravir 400mg filmcoated tablet",
-                                "Output": "Organism|PeripheralVenousBlood|Raltegravir|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)",
+                                "ObservedData": [
+                                    "Rhee 2014 - filmcoated tablet - Raltegravir - po - 400 mg - Plasma - agg. (n=12)",
+                                    "Wenning 2009 - 400mg - Raltegravir - PO - 400 mg - Plasma - agg. (n=10)",
+                                    "Iwamoto 2008 - 400mg FCT - Raltegravir - PO - 400 mg - Plasma - agg. (n=14)"
+                                ],
                                 "Color": "#000000"
                             }
                         ]
@@ -380,92 +369,92 @@
             "Project": "Raltegravir",
             "Name": "Raltegravir",
             "Type": "Compound",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "filmcoated tablet (original Merck formulation)",
             "Project": "Raltegravir",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "chewable tablet",
             "Project": "Raltegravir",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Weibull (lactose formulation)",
             "Project": "Raltegravir",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Weibull (granules)",
             "Project": "Raltegravir",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
+                    "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
-                    "Title": "2.1 Modeling strategy"
+                    "Title": "Modeling strategy"
                 },
                 {
-                    "Id": 22,
+                    "Reference": "data",
                     "Content": "Content/Section2.2_Data_used.md",
-                    "Title": "2.2 Data used"
+                    "Title": "Data used"
                 },
                 {
-                    "Id": 23,
+                    "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
-                    "Title": "2.3 Model parameters and assumptions"
+                    "Title": "Model parameters and assumptions"
                 }
             ]
         },
         {
-            "Id": 3,
+            "Reference": "results-and-discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
-            "Title": "3 Results and Discussion",
+            "Title": "Results and Discussion",
             "Sections": [
                 {
-                    "Id": 40,
+                    "Reference": "final-input-parameters",
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1 Raltegravir final input parameters"
+                    "Title": "Raltegravir final input parameters"
                 },
                 {
-                    "Id": 41,
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "3.2 Raltegravir Diagnostics Plots"
+                    "Title": "Raltegravir Diagnostics Plots"
                 },
                 {
-                    "Id": 42,
+                    "Reference": "ct-profiles",
                     "Content": "Content/Concentration_time_profiles.md",
-                    "Title": "3.3 Raltegravir Concentration-Time profiles"
+                    "Title": "Raltegravir Concentration-Time profiles"
                 }
             ]
         },
         {
-            "Id": 4,
+            "Reference": "conclusion",
             "Content": "Content/Section4_Conclusion.md",
-            "Title": "4 Conclusion"
+            "Title": "Conclusion"
         },
         {
-            "Id": 5,
+            "Reference": "main-references",
             "Content": "Content/References.md",
-            "Title": "5 References"
+            "Title": "References"
         }
     ],
     "Intro": [
