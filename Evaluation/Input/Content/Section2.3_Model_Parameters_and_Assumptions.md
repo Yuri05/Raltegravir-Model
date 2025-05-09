@@ -33,7 +33,7 @@ V<sub>max,UGT1A1</sub> = f<sub>UGT </sub> *  V<sub>max,in-vitro,UGT1A1</sub>
 
 V<sub>max,UGT1A9</sub> = f<sub>UGT</sub> * V<sub>max,in-vitro,UGT1A9</sub>
 
-It is especially important to fix the relative contribution of both enzymes as a ratio to ensure that, when translating to other populations (e.g. children where both UGT’s undergo a different ontogeny pattern, or patients who have differently reduced amounts of UGT1A1 vs 1A9) the relative contributions can be adequately scaled. 
+It is especially important to fix the relative contribution of both enzymes as a ratio to ensure that, when translating to other populations (e.g. children where both UGTs undergo a different ontogeny pattern, or patients who have differently reduced amounts of UGT1A1 vs 1A9) the relative contributions can be adequately scaled. 
 Note that the estimated scaling factor f<sub>UGT</sub> will be directly implemented into the final *in vivo* V<sub>max</sub> values (only V<sub>max,UGT1A1</sub> and V<sub>max,UGT1A9</sub> will be reported in [section 3](#3-results-and-discussion))
 
 Finally, as ~9% of the dose is excreted in human urine as unchanged parent compound, GFR is introduced in the raltegravir PBPK model.
